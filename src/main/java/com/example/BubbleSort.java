@@ -27,7 +27,7 @@ public class BubbleSort {
 //        print(array);
     }
 
-    static void print(int[] array) {
+    private static void print(int[] array) {
         StringBuilder s = new StringBuilder();
         for (int i : array) {
             s.append(i);

@@ -9,7 +9,7 @@ public class FindMaxChar {
         System.out.println(findMaxChar("abababaads"));
     }
 
-    static String findMaxChar(String s) {
+    private static String findMaxChar(String s) {
         Map<Character, Integer> map = new HashMap<>();
 
         String ans = "";
