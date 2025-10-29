@@ -1,6 +1,4 @@
-package com.example;
-
-import java.util.Arrays;
+package com.example.sort;
 
 public class QuickSort {
 
@@ -31,14 +29,14 @@ public class QuickSort {
         int leftIndex = from;
         int rightIndex = to;
 
-        int pivot = arr[(from + to) / 2];
+        int pivot = arr[from + (to - from) / 2];
         while (leftIndex <= rightIndex) {
 
-            while (arr[leftIndex] < pivot) {
+            while (arr[leftIndex] > pivot) {
                 leftIndex++;
             }
 
-            while (arr[rightIndex] > pivot) {
+            while (arr[rightIndex] < pivot) {
                 rightIndex--;
             }
 

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.search;
 
 import java.util.Arrays;
 
